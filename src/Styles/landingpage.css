@@ -1,0 +1,53 @@
+.main{
+    backdrop-filter: blur(10px);
+    margin: 100px;
+    margin-top: 0;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+header article a{
+    text-align: left;
+    width: 500px;
+}
+
+header img{
+    border-radius: 40px;
+    width: 100px;
+    height: 150%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .main{
+     margin: 20px;
+    }
+
+    header{
+        max-width: 300px;
+    }
+} 
