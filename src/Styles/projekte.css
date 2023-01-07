@@ -23,24 +23,8 @@ main img {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 40px;
-
-}
-
-.img-hover {
-    overflow: hidden; 
-    border-radius: 40px;
-    top: 0;
-}
-  
-.img-hover img {
-    transition: transform .5s ease;
-    
-}
-  
-.img-hover:hover img {
-    transform: scale(1.2);
-    
+    border-radius: 30px;
+    margin: 0 30px;
 }
 
 .projects{
@@ -54,6 +38,10 @@ main img {
         align-items: center;
         text-align: center;
         margin: 10px;
+    }
+
+    main img {
+        margin: 20px;
     }
 
     section{
