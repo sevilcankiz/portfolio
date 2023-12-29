@@ -41,6 +41,7 @@ header img{
     gap: 10px;
     align-items: center;
     margin: 10px;
+    color: #256b8b;
 }
 
 @media screen and (max-width: 768px){
