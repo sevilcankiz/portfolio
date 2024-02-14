@@ -12,7 +12,8 @@
 }
 
 .App{
-    background-image: url('./img/bg.gif');
+    background-image: url('./img/bg.jpg');
+    /* background-image: linear-gradient( 135deg, #3499ff 10%, #3a3985 100%); */
     background-size: cover;
 }
 
